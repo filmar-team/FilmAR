@@ -1,0 +1,9 @@
+[submodule "Server"]
+	path = Server
+	url = https://github.com/DanielCalle/TFG-Server
+[submodule "AndroidProject"]
+	path = AndroidProject
+	url = https://github.com/DanielCalle/TFG-Android
+[submodule "UnityVuforia"]
+	path = UnityVuforia
+	url = https://github.com/DanielCalle/TFG-Vuforia
