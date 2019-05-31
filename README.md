@@ -28,4 +28,4 @@ Para descargar todo el proyecto (los tres subproyectos), hay que tener instalado
 
 Esto hará que se descarguen tambíen cada uno de los subproyectos como carpetas. Solo tendremos que entrar en ella y seguir las instrucciones de cada README.
 
-La aplicación ya compilada y lista para funcionar en dispositivos moviles se puede [descargar aquí](https://filmar-team.github.io/FilmAR/FilmAR.apk).
+La aplicación ya compilada y lista para funcionar en dispositivos moviles funcionando con nuestro servidor desplegado en Heroku, se puede [descargar aquí](https://filmar-team.github.io/FilmAR/FilmAR.apk).
