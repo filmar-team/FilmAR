@@ -23,3 +23,13 @@
     --on-warning-color: #FFFFFF;
     --on-error-color: #FFFFFF;
 }
+
+.img-width-fill {
+    width: 100%;
+    height: auto;
+}
+
+.img-height-fill {
+    width: auto;
+    height: 100%;
+}
