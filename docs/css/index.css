@@ -1,9 +1,5 @@
-#carouselExampleIndicators {
-    background-color: blue;
-}
-
 .carousel-inner>.carousel-item {
-    height: 500px;
+    height: 600px;
 }
 
 .carousel-inner>.carousel-item>img {
