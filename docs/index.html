@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,97 +9,63 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>FilmAR</title>
-  </head>
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">FilmAR</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Desarrollo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+</head>
 
-    <div class="position-relative overflow-hidden text-center bg-light">
-      <div class="col-md-10 p-lg-5 mx-auto ">
-        <h1 class="display-4 font-weight-normal">FilmAR</h1>
-        <p class="lead font-weight-normal">
-          Una aplicación con la que realizar planes con tus amigos para ver
-          películas.
-          Disfrutando de las tecnologías de Realidad Aumentada y de Sistemas de Recomendación.
-        </p>
-        <a class="btn btn-outline-success" href="./FilmAR.apk">Descargar APK</a>
-        <a class="btn btn btn-outline-info" href="https://github.com/filmar-team/FilmAR">Ver en GitHub</a>
-      </div>
-      <div class="product-device shadow-sm d-none d-md-block"></div>
-      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html">FilmAR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/home.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/develop.html">Desarrollo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/about_us.html">Acerca de</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/a.gif" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
-    <main role="main" class="flex-shrink-0">
-      <div class="container">
-        <h1 class="mt-5">Distribución del proyecto</h1>
-        <p class="lead">
-          Este proyecto se divide en tres repositorios que
-          detallaremos a continuación:
-        </p>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <a href="https://github.com/DanielCalle/TFG-Server">TFG-Server</a>
-            que contiene la implementación relativa al servidor.
-          </li>
-          <li class="list-group-item">
-            <a href="https://github.com/DanielCalle/TFG-Android">TFG-Android</a>
-            que contiene la implementación relativa a la aplicación Android.
-          </li>
-          <li class="list-group-item">
-            <a href="https://github.com/DanielCalle/TFG-Vuforia">TFG-Vuforia</a>
-            que contiene la implementación relativa a la escena de Realidad
-            Aumentada que se integra en la anterior aplicación Android.
-          </li>
-        </ul>
-        <p class="lead">
-          Si se accede a los anteriores repositorios, podemos encontrar el
-          README que nos ofrece información de como ejecutar cada una de
-          las partes.
-        </p>
-
-        <h1 class="mt-5">Instrucciones de instalación</h1>
-        <p class="lead">
-          Para descargar todo el proyecto (los tres subproyectos), hay que tener
-          instalado Git y ejecutar el siguiente comando:
-        </p>
-        <p class="lead">
-          <code>git clone --recursive https://github.com/filmar-team/FilmAR</code>
-        </p>
-        <p class="lead">
-          Esto hará que se descarguen también cada uno de los subproyectos como
-          carpetas. Solo tendremos que entrar en ella y seguir las instrucciones
-          de cada README.
-        </p>
-        <p class="lead">
-          También se dispone de la opción de descargar la APK que funciona con
-          nuestro servidor desplegado en Heroku.
-        </p>
-        
-      </div>
-    </main>
-      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="./js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="./js/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
 </html>
