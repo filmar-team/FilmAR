@@ -25,6 +25,7 @@
 
 .carousel-inner>.carousel-item .item-content {
     margin: 10px;
+    padding: 20%;
     height: 100%;
     flex-grow: 100;
     color: white;
