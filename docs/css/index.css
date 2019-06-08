@@ -2,6 +2,34 @@
     height: 600px;
 }
 
-.carousel-inner>.carousel-item>img {
-    margin: auto;
+.carousel-inner>.carousel-item>.item {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.carousel-inner>.carousel-item>.item-reverse {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.carousel-inner>.carousel-item .item-content {
+    margin: 10px;
+    height: 100%;
+    flex-grow: 100;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
